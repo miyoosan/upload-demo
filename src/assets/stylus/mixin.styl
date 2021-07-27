@@ -1,0 +1,25 @@
+@import './theme.styl'
+
+//获取背景色
+bg_color($color)
+  background-color: _blue[$color];
+  for item in themeList
+    [data-theme = {item.name}] & {
+      background-color: item[$color];
+    }
+
+//获取字体颜色
+font_color($color)
+  color: _blue[$color];
+  for item in themeList
+    [data-theme = {item.name}] & {
+      color: item[$color];
+    }
+
+//获取边框颜色
+border_color($color)
+  border-color: _blue[$color];
+  for item in themeList
+    [data-theme = {item.name}] & {
+      border-color: item[$color];
+    }

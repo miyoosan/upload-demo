@@ -1,0 +1,4 @@
+/dist/
+/node_modules/
+/tests/unit/coverage/
+/src/assets/
